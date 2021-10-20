@@ -18,4 +18,8 @@ console.log(colore);
 //Scrivere sulla pagina tutti i dati ricevuti
 // - selezionare elemento html (in questi caso "risultato" )
 // - assegnare i valori all'elemento 
-document.getElementById('risultato').innerHTML = 'La tua password è ' + nome + cognome + colore + '21';
+/*  document.getElementById('risultato').innerHTML = 'La tua password è ' + nome + cognome + colore + '21';  */
+
+// TEMPLATE LITERAL
+
+document.getElementById('risultato').innerHTML = `la tua password è ${nome} ${cognome} ${colore} ${21}  `
